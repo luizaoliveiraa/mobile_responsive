@@ -1,0 +1,54 @@
+.about {
+  min-height: 65vh;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 800px;
+  line-height: 1.6;
+}
+
+.emoji {
+  font-size: 30px;
+  margin: 10px;
+}
+
+.challenge {
+  display: flex;
+  gap: 20px;
+}
+.challenge :nth-child(1) {
+  flex: 1;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0px;
+}
+.challenge :nth-child(2) {
+  flex: 1;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0px;
+}
+
+.tech {
+  font-size: 14px;
+}
+
+@media screen and (max-width: 640px) {
+  .challenge {
+    flex-direction: column;
+    gap: 0px;
+  }
+  .challenge :nth-child(1) {
+    margin: 10px 0px;
+    font-size: 12px;
+  }
+  .challenge :nth-child(2) {
+    margin: 10px 0px;
+
+    font-size: 12px;
+  }
+
+  .tech {
+    font-size: 12px;
+  }
+}

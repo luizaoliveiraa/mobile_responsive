@@ -1,0 +1,147 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 70vh;
+}
+
+.content {
+  padding: 80px;
+  width: 550px;
+}
+
+.mainTitle {
+  cursor: pointer;
+}
+
+.tabContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+
+.tabContent {
+  padding: 40px;
+  border-radius: 15px;
+  width: 100%;
+  height: 400px;
+}
+.tabContent2 {
+  padding: 40px;
+  border-radius: 15px;
+  width: 100%;
+  height: 400px;
+}
+
+.btnFunction {
+  cursor: pointer;
+  border-radius: 30px;
+  border: none;
+  padding: 10px 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  .content {
+    padding: 70px;
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .tabContainer {
+    height: 40px;
+    justify-content: space-around;
+  }
+  .tabContent,
+  .tabContent2 {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .tabContent,
+  .tabContent2 {
+    height: auto;
+    width: 380px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .content {
+    padding: 30px;
+    width: 100%;
+  }
+
+  .tabContainer {
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    height: auto;
+    margin-bottom: 30px;
+  }
+
+  .tabContent,
+  .tabContent2 {
+    width: 320px;
+  }
+
+  .mainTitle {
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 440px) {
+  .tabContent,
+  .tabContent2 {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .btnFunction {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 390px) {
+  .tabContent,
+  .tabContent2 {
+    width: 280px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .content {
+    padding: 20px;
+    width: 100%;
+  }
+
+  .tabContent,
+  .tabContent2 {
+    padding: 30px;
+    height: auto;
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .content {
+    padding: 10px;
+    width: 100%;
+  }
+
+  .tabContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tabContent,
+  .tabContent2 {
+    padding: 20px;
+    height: auto;
+  }
+
+  .mainTitle {
+    width: 100%;
+    text-align: center;
+  }
+}

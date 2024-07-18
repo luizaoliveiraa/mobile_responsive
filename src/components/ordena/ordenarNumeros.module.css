@@ -1,0 +1,81 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.h2 {
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.camposNumeros {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.input {
+  width: calc(20% - 10px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-weight: bold;
+  background-color: #cfa3f2;
+  color: #212121;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.resultadoOrdenado {
+  color: #333;
+  color: var(--textColor);
+}
+
+@media screen and (max-width: 640px) {
+  .input {
+    width: calc(30% - 10px);
+  }
+}
+
+@media (max-width: 576px) {
+  .input {
+    width: calc(50% - 10px);
+  }
+}
+
+@media (max-width: 480px) {
+  .input {
+    width: calc(40%);
+  }
+}
+@media screen and (max-width: 390px) {
+  .camposNumeros {
+    gap: 5px;
+    justify-content: center;
+  }
+  .input {
+    width: 70%;
+  }
+  .tittle {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .tittle {
+    font-size: 12px;
+  }
+}
