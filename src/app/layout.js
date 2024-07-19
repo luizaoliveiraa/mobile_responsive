@@ -8,7 +8,7 @@ import ThemeProvider from "@/providers/ThemeProvider";
 const poppins = Poppins({ subsets: ["latin"], weight: ["400", "700"] });
 
 export const metadata = {
-  title: "Desafio 2logical",
+  title: "Challenge interview",
 };
 export default function RootLayout({ children }) {
   return (

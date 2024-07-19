@@ -9,10 +9,10 @@ export default function Footer() {
       <div className={styles.info}>
         <div className={styles.logo}>
           <Image
-            src="/logohorizontal.png"
+            src="/logo.jpg"
             alt="logo"
-            width={240}
-            height={45}
+            width={100}
+            height={100}
             className={styles.logoPic}
           ></Image>
         </div>

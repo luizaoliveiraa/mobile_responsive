@@ -21,7 +21,7 @@ export default function Navbar() {
       <div className={styles.social}>
         <ImMobile />
       </div>
-      <div className={styles.logo}>Desafio 2logical</div>
+      <div className={styles.logo}>Challenge</div>
       <ThemeToggle />
       <div
         className={`${styles.links} ${menuOpen ? styles.linksOpen : ""}`}
